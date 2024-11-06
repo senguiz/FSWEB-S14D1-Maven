@@ -1,3 +1,12 @@
+import com.cylinder.Circle;
+import com.cylinder.Cylinder;
+import com.developers.HRManager;
+import com.developers.JuniorDeveloper;
+import com.developers.MidDeveloper;
+import com.developers.SeniorDeveloper;
+import com.pool.Cuboid;
+import com.pool.Rectangle;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -36,6 +45,24 @@ public class Main {
         System.out.println("cuboid.height= " + cuboid.getHeight());
 
         System.out.println("cuboid.volume= " + cuboid.getVolume());
+
+
+        SeniorDeveloper seniordeveloper = new SeniorDeveloper(1, "ahmet", 3333);
+        SeniorDeveloper seniordeveloper1 = new SeniorDeveloper(1, "ahmet", 3333);
+        SeniorDeveloper seniordeveloper2 = new SeniorDeveloper(1, "ahmet", 3333);
+        SeniorDeveloper seniordeveloper3 = new SeniorDeveloper(1, "ahmet", 3333);
+        SeniorDeveloper seniordeveloper4 = new SeniorDeveloper(1, "ahmet", 3333);
+        SeniorDeveloper seniordeveloper5 = new SeniorDeveloper(1, "ahmet", 3333);
+        SeniorDeveloper seniordeveloper6 = new SeniorDeveloper(1, "ahmet", 3333);
+        HRManager hr= new HRManager(1,"ayse",1111);
+        hr.addEmployee(seniordeveloper1);
+        hr.addEmployee(seniordeveloper2);
+        hr.addEmployee(seniordeveloper3);
+        hr.addEmployee(seniordeveloper4);
+        hr.addEmployee(seniordeveloper5);
+        hr.addEmployee(seniordeveloper6);
+
+
 
 
 
